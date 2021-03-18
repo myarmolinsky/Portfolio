@@ -9,7 +9,7 @@ import {
   FaNodeJs,
   FaJava,
 } from "react-icons/fa";
-import { SiJavascript } from "react-icons/si";
+import { SiHeroku, SiJavascript, SiJest, SiMongodb } from "react-icons/si";
 
 // Projects Images (add your images to the /assets/images directory and import below)
 import ponkemo from "./assets/images/ponkemo.png";
@@ -58,8 +58,20 @@ export const skillData = [
     name: "GitHub",
   },
   {
+    icon: <SiMongodb className="display-4" />,
+    name: "MongoDB",
+  },
+  {
     icon: <FaNodeJs className="display-4" />,
     name: "Node.js",
+  },
+  {
+    icon: <SiHeroku className="display-4" />,
+    name: "Heroku",
+  },
+  {
+    icon: <SiJest className="display-4" />,
+    name: "Jest.js",
   },
 ];
 
@@ -75,5 +87,37 @@ export const projects = [
     name: "Ponkemo",
     url: "https://github.com/myarmolinsky/Ponkemo",
     image: ponkemo,
+  },
+];
+
+/* Experiences
+ ************************************************************** */
+export const experiences = [
+  {
+    name: "Codelet",
+    tech: [
+      <FaReact className="display-4" />,
+      <SiJavascript className="display-4" />,
+      <FaNodeJs className="display-4" />,
+      <FaHtml5 className="display-4" />,
+      <FaCss3Alt className="display-4" />,
+      <FaSass className="display-4" />,
+      <SiMongodb className="display-4" />,
+      <SiJest className="display-4" />,
+    ],
+    position: "Full Stack Software Engineer",
+    timeline: "Aug 2020 - Present",
+  },
+  {
+    name: "Nova XR Media",
+    tech: [
+      <FaReact className="display-4" />,
+      <SiJavascript className="display-4" />,
+      <FaNodeJs className="display-4" />,
+      <FaHtml5 className="display-4" />,
+      <FaCss3Alt className="display-4" />,
+    ],
+    position: "Development Intern",
+    timeline: "Feb 2018 - Aug 2018",
   },
 ];

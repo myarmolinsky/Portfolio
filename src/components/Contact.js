@@ -1,8 +1,8 @@
 import { email, name } from "../data";
 import pfp from "../assets/images/pfp.jpg";
 
-const Contact = ({ theme }) => {
-  const newTheme = `${theme} d-flex flex-column justify-content-center`;
+const Contact = () => {
+  const newTheme = `d-flex flex-column justify-content-center`;
 
   return (
     <section id="contact" className={newTheme}>

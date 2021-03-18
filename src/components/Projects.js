@@ -3,11 +3,12 @@ import React from "react";
 import { CardColumns, Card } from "react-bootstrap";
 import { projects } from "../data";
 
-const Projects = ({ theme }) => {
-  const newTheme = `${theme} d-flex flex-column min-vh-100 justify-content-center align-items-center text-center`;
-
+const Projects = () => {
   return (
-    <section id="projects" className={newTheme}>
+    <section
+      id="projects"
+      className="d-flex flex-column min-vh-100 justify-content-center align-items-center text-center"
+    >
       <div className="container">
         <h2>Projects</h2>
         <hr />

@@ -62,6 +62,9 @@ hr {
 .navbar-item {
   margin-left: 10%;
 }
+.experience-card {
+  background-color: #343a40;
+}
 
 /* Theme
 ************************************************************** */
@@ -70,61 +73,6 @@ hr {
 }
 .light {
   @include lightTheme();
-}
-
-/* Animations
-************************************************************** */
-.loading {
-  position: relative;
-}
-.loading::before {
-  content: "Loading...";
-  position: absolute;
-  color: $reactBlue;
-  overflow: hidden;
-  border-right: 4px solid $reactBlue;
-  animation: loading 5s linear infinite;
-}
-@keyframes loading {
-  0% {
-    width: 0;
-  }
-  50% {
-    width: 100%;
-  }
-  100% {
-    width: 0;
-  }
-}
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.card:hover {
-  animation: bounce 1s;
-}
-@keyframes bounce {
-  0%,
-  20%,
-  60%,
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  80% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
 }
 
 /* About

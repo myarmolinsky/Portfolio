@@ -51,6 +51,17 @@ hr {
   justify-content: center;
   align-items: center;
 }
+.navbar {
+  height: 10%;
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.navbar-item {
+  margin-left: 10%;
+}
 
 /* Theme
 ************************************************************** */

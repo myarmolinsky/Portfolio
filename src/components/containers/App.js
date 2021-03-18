@@ -6,6 +6,7 @@ import Skills from "../Skills";
 import Projects from "./Projects";
 import Contact from "../Contact";
 import Footer from "../Footer";
+import NavBar from "./NavBar";
 
 const App = () => {
   // const [isLoading, setIsLoading] = useState(true);
@@ -56,7 +57,8 @@ const App = () => {
 
   return (
     <>
-      <About theme={theme} setTheme={setTheme} />
+      <NavBar theme={theme} setTheme={setTheme} />
+      <About theme={theme} />
       <Skills theme={theme} />
       <Projects theme={theme} />
       <Contact theme={theme} />

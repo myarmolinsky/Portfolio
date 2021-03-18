@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Permanent Marker";
-  src: local("Permanent Marker"), url(../fonts/PermanentMarker-Regular.ttf);
+  src: local("Permanent Marker"),
+    url(../assets/fonts/PermanentMarker-Regular.ttf);
 }
 @import "./theme.scss";
 // https://eduardoboucas.github.io/include-media/
@@ -42,6 +43,11 @@ hr {
   width: 30%;
   margin-top: 8%;
 }
+.footer {
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+}
 
 /* Theme
 ************************************************************** */
@@ -75,9 +81,6 @@ hr {
   100% {
     width: 0;
   }
-}
-.logo {
-  animation: spin infinite 20s linear;
 }
 @keyframes spin {
   from {
@@ -120,10 +123,6 @@ hr {
     .active {
       color: $reactBlue !important;
     }
-  }
-  .logo {
-    height: 33vmin;
-    pointer-events: none;
   }
   h1 {
     font-family: "Permanent Marker";
@@ -274,9 +273,6 @@ footer {
 // iPhones landscape
 @include media(">=phone", "<tablet", "landscape") {
   #about {
-    .logo {
-      display: none;
-    }
     h1 {
       margin-top: 2.5rem;
     }
@@ -342,9 +338,6 @@ footer {
     }
   }
   #about {
-    .logo {
-      display: none;
-    }
     h1 {
       font-size: 2.75rem;
       margin-top: 1.5rem;

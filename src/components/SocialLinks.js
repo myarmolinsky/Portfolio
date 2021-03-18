@@ -1,13 +1,14 @@
 // https://react-icons.github.io/react-icons/
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { githubUrl, linkedinUrl } from "../data";
 
-const SocialLinks = ({ github, linkedin }) => {
+const SocialLinks = () => {
   return (
     <>
       <div className="social-links">
         <a
           className="social-link"
-          href={github}
+          href={githubUrl}
           target="_blank"
           rel="noreferrer"
         >
@@ -15,7 +16,7 @@ const SocialLinks = ({ github, linkedin }) => {
         </a>
         <a
           className="social-link"
-          href={linkedin}
+          href={linkedinUrl}
           target="_blank"
           rel="noreferrer"
         >

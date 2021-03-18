@@ -82,11 +82,21 @@ export const projects = [
     name: "Ponkemo-v2",
     url: "https://github.com/myarmolinsky/Ponkemo-v2",
     image: ponkemo,
+    tech: [
+      <FaReact className="display-4" />,
+      <SiJavascript className="display-4" />,
+      <FaNodeJs className="display-4" />,
+      <FaHtml5 className="display-4" />,
+      <FaCss3Alt className="display-4" />,
+      <FaSass className="display-4" />,
+      <SiMongodb className="display-4" />,
+    ],
   },
   {
     name: "Ponkemo",
     url: "https://github.com/myarmolinsky/Ponkemo",
     image: ponkemo,
+    tech: [<FaJava className="display-4" />],
   },
 ];
 

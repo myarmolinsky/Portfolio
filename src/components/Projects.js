@@ -24,6 +24,11 @@ const Projects = () => {
                     {project.name}
                   </Card.Title>
                 </Card.Body>
+                <Card.Body>
+                  {project.tech.map((tech, index) => (
+                    <span key={index}>{tech}</span>
+                  ))}
+                </Card.Body>
               </Card>
             </a>
           ))}

@@ -12,6 +12,7 @@ import {
 import { SiHeroku, SiJavascript, SiJest, SiMongodb } from "react-icons/si";
 
 // Projects Images (add your images to the /assets/images directory and import below)
+import reactLogo from "./assets/images/logo.svg";
 import ponkemo from "./assets/images/ponkemo.png";
 
 export const name = "Matthew Yarmolinsky";
@@ -93,6 +94,21 @@ export const projects = [
     ],
   },
   {
+    name: "Dev Connector",
+    url: "https://github.com/myarmolinsky/Udemy_MERN_Project",
+    image: reactLogo,
+    tech: [
+      <FaReact className="display-4" />,
+      <SiJavascript className="display-4" />,
+      <FaNodeJs className="display-4" />,
+      <FaHtml5 className="display-4" />,
+      <FaCss3Alt className="display-4" />,
+      <FaSass className="display-4" />,
+      <SiMongodb className="display-4" />,
+      <SiHeroku className="display-4" />,
+    ],
+  },
+  {
     name: "Ponkemo",
     url: "https://github.com/myarmolinsky/Ponkemo",
     image: ponkemo,
@@ -108,11 +124,11 @@ export const experiences = [
     tech: [
       <FaReact className="display-4" />,
       <SiJavascript className="display-4" />,
-      <FaNodeJs className="display-4" />,
       <FaHtml5 className="display-4" />,
       <FaCss3Alt className="display-4" />,
       <FaSass className="display-4" />,
       <SiMongodb className="display-4" />,
+      <FaNodeJs className="display-4" />,
       <SiJest className="display-4" />,
     ],
     position: "Full Stack Software Engineer",
@@ -123,9 +139,9 @@ export const experiences = [
     tech: [
       <FaReact className="display-4" />,
       <SiJavascript className="display-4" />,
-      <FaNodeJs className="display-4" />,
       <FaHtml5 className="display-4" />,
       <FaCss3Alt className="display-4" />,
+      <FaNodeJs className="display-4" />,
     ],
     position: "Development Intern",
     timeline: "Feb 2018 - Aug 2018",

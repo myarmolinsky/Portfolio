@@ -12,8 +12,7 @@ import {
 import { SiJavascript } from "react-icons/si";
 
 // Projects Images (add your images to the /assets/images directory and import below)
-import colors from "./assets/images/colors.svg";
-import react from "./assets/images/logo.svg";
+import ponkemo from "./assets/images/ponkemo.png";
 
 export const name = "Matthew Yarmolinsky";
 
@@ -66,13 +65,15 @@ export const skillData = [
 
 /* Projects
  ************************************************************** */
-export const filteredProjects = ["Ponkemo-v2", "Ponkemo"];
-
-export const projectData = [
+export const projects = [
   {
-    image: colors,
+    name: "Ponkemo-v2",
+    url: "https://github.com/myarmolinsky/Ponkemo-v2",
+    image: ponkemo,
   },
   {
-    image: react,
+    name: "Ponkemo",
+    url: "https://github.com/myarmolinsky/Ponkemo",
+    image: ponkemo,
   },
 ];

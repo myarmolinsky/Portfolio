@@ -6,9 +6,6 @@ import { Link } from "react-scroll";
 // https://react-icons.github.io/react-icons/
 import { RiMoonClearFill, RiSunLine } from "react-icons/ri";
 
-// Image
-import logo from "../../assets/images/logo.svg";
-
 const NavBar = ({ theme, setTheme }) => {
   const [expanded, setExpanded] = useState(false);
   const [themeLogo, setThemeLogo] = useState(<RiMoonClearFill />);
@@ -35,15 +32,6 @@ const NavBar = ({ theme, setTheme }) => {
       expand="lg"
       expanded={expanded}
     >
-      <Navbar.Brand href="#home">
-        <img
-          className="d-inline-block align-top"
-          alt="React Logo"
-          src={logo}
-          width="45"
-          height="45"
-        />
-      </Navbar.Brand>
       <Navbar.Toggle
         aria-controls="basic-navbar-nav"
         // Set the expanded state with the toggle button

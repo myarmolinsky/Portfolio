@@ -5,10 +5,20 @@ const SocialLinks = ({ github, linkedin }) => {
   return (
     <>
       <div className="social-links">
-        <a className="mr-5" href={github} target="_blank" rel="noreferrer">
+        <a
+          className="social-link"
+          href={github}
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaGithub />
         </a>
-        <a className="mr-5" href={linkedin} target="_blank" rel="noreferrer">
+        <a
+          className="social-link"
+          href={linkedin}
+          target="_blank"
+          rel="noreferrer"
+        >
           <FaLinkedin />
         </a>
       </div>

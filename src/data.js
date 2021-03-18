@@ -17,7 +17,8 @@ import react from "./assets/images/logo.svg";
 
 /* START HERE - add your GitHub username below
  ************************************************************** */
-export const githubUsername = "myarmolinsky";
+export const githubUrl = "https://github.com/myarmolinsky";
+export const linkedinUrl = "https://www.linkedin.com/in/matthewyarmolinsky/";
 
 /* Skills
  ************************************************************** */

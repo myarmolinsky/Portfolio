@@ -3,11 +3,12 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaSass,
-  FaBootstrap,
   FaReact,
   FaNpm,
   FaGitAlt,
   FaGithubSquare,
+  FaNodeJs,
+  FaJava,
 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
@@ -24,49 +25,40 @@ export const githubUsername = "myarmolinsky";
 // Add or remove skills in the SAME format below, there must be one icon imported above per skill below and 3 skills per row
 export const skillData = [
   {
-    id: 1,
-    skill: <FaHtml5 className="display-4" />,
-    name: "HTML5",
-  },
-  {
-    id: 2,
-    skill: <FaCss3Alt className="display-4" />,
-    name: "CSS3",
-  },
-  {
-    id: 3,
-    skill: <SiJavascript className="display-4" />,
-    name: "JavaScript",
-  },
-  {
-    id: 4,
-    skill: <FaSass className="display-4" />,
-    name: "Sass",
-  },
-  {
-    id: 5,
-    skill: <FaBootstrap className="display-4" />,
-    name: "Bootstrap",
-  },
-  {
-    id: 6,
-    skill: <FaReact className="display-4" />,
+    icon: <FaReact className="display-4" />,
     name: "React",
   },
   {
-    id: 7,
-    skill: <FaNpm className="display-4" />,
-    name: "npm",
+    icon: <SiJavascript className="display-4" />,
+    name: "JavaScript",
   },
   {
-    id: 8,
-    skill: <FaGitAlt className="display-4" />,
+    icon: <FaHtml5 className="display-4" />,
+    name: "HTML5",
+  },
+  {
+    icon: <FaCss3Alt className="display-4" />,
+    name: "CSS3",
+  },
+  {
+    icon: <FaSass className="display-4" />,
+    name: "Sass",
+  },
+  {
+    icon: <FaJava className="display-4" />,
+    name: "Java",
+  },
+  {
+    icon: <FaGitAlt className="display-4" />,
     name: "Git",
   },
   {
-    id: 9,
-    skill: <FaGithubSquare className="display-4" />,
+    icon: <FaGithubSquare className="display-4" />,
     name: "GitHub",
+  },
+  {
+    icon: <FaNodeJs className="display-4" />,
+    name: "Node.js",
   },
 ];
 

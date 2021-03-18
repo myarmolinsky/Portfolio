@@ -9,11 +9,11 @@ const Skills = ({ theme }) => {
         <h2>Skills</h2>
         <hr />
         <div className="row row-cols-3">
-          {skillData.map((skills) => {
+          {skillData.map((skill, index) => {
             return (
-              <figure className="col" key={skills.id}>
-                {skills.skill}
-                <figcaption>{skills.name}</figcaption>
+              <figure className="col" key={index}>
+                {skill.icon}
+                <figcaption>{skill.name}</figcaption>
               </figure>
             );
           })}

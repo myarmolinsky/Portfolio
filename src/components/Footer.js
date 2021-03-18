@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer bg-dark">
       <SocialLinks />
-      <p className="lead my-3 text-white">
+      <div className="lead my-3 text-white">
         Copyright &copy; 2021{" "}
         <a
           id="myInfo"
@@ -23,7 +23,7 @@ const Footer = () => {
         >
           Michael Huber
         </a>
-      </p>
+      </div>
     </footer>
   );
 };

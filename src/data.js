@@ -14,11 +14,10 @@ import { SiJavascript } from "react-icons/si";
 // Projects Images (add your images to the /assets/images directory and import below)
 import colors from "./assets/images/colors.svg";
 import react from "./assets/images/logo.svg";
-import notepad from "./assets/images/notepad.svg";
 
 /* START HERE - add your GitHub username below
  ************************************************************** */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "myarmolinsky";
 
 /* Skills
  ************************************************************** */
@@ -74,11 +73,7 @@ export const skillData = [
 /* Projects
  ************************************************************** */
 // List the repo names you want to include (they will be sorted alphabetically), leave the array empty if you want to include everything
-export const filteredProjects = [
-  "Background-Generator",
-  "github-react-portfolio-template",
-  "notepad",
-];
+export const filteredProjects = ["Ponkemo-v2", "Ponkemo"];
 
 // List the card images you want to include in the same order as the repos above (alphabetically)
 // There MUST be one image per repo above or the defualt image will be applied
@@ -89,9 +84,6 @@ export const projectData = [
   {
     image: react,
   },
-  {
-    image: notepad,
-  },
 ];
 
 /* Contact Info
@@ -99,7 +91,7 @@ export const projectData = [
 // Share the contact info you are comfortable with (no dashes for phone numbers)
 // If no info provided a button with a link to mailchimp will be rendered, update the link if you want to use this option
 export const contactInfo = {
-  email: "",
+  email: "yarmolinskymatthew@gmail.com",
   phone: "",
-  mailChimp: "https://www.mailchimp.com/",
+  mailChimp: "",
 };

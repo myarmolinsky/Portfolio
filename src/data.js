@@ -4,7 +4,6 @@ import {
   FaCss3Alt,
   FaSass,
   FaReact,
-  FaNpm,
   FaGitAlt,
   FaGithubSquare,
   FaNodeJs,

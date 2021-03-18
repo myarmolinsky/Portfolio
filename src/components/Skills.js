@@ -1,4 +1,4 @@
-import { skillData } from "../../data";
+import { skillData } from "../data";
 
 const Skills = ({ theme }) => {
   const newTheme = `${theme} d-flex flex-column min-vh-100 justify-content-center`;

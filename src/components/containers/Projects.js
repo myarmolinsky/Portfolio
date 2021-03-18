@@ -2,13 +2,10 @@ import React, { useState, useEffect } from "react";
 // https://react-bootstrap.github.io/components/cards/#card-columns
 import { CardColumns, Card } from "react-bootstrap";
 import { filteredProjects, projectData } from "../../data";
-import {
-  ProjectsError,
-  ProjectsLoading,
-} from "../components/projectsLoadingError";
+import { ProjectsError, ProjectsLoading } from "../projectsLoadingError";
 
 // Image
-import defualtImage from "../images/logo.svg";
+import defualtImage from "../../assets/images/logo.svg";
 
 const Projects = ({ theme, githubUsername }) => {
   const [isLoading, setIsLoading] = useState(true);

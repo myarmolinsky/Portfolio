@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 import { RiMoonClearFill, RiSunLine } from "react-icons/ri";
 
 // Image
-import logo from "../images/logo.svg";
+import logo from "../../assets/images/logo.svg";
 
 const NavBar = ({ theme, setTheme }) => {
   const [expanded, setExpanded] = useState(false);

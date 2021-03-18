@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 // https://react-icons.github.io/react-icons/
 import { FiMail } from "react-icons/fi";
 import { FaChevronCircleUp } from "react-icons/fa";
-import { contactInfo } from "../../data";
+import { contactInfo } from "../data";
 
 const mail = `mailto:${contactInfo.email}`;
 const phone = `tel:${contactInfo.phone}`;

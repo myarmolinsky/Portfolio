@@ -8,14 +8,8 @@ import SocialLinks from "./SocialLinks";
 // Image
 import logo from "../assets/images/logo.svg";
 
-const About = ({ theme, setTheme, githubUrl, name, link, bio, twitter }) => {
+const About = ({ theme, setTheme, githubUrl, linkedinUrl, name, bio }) => {
   const newTheme = `${theme} d-flex flex-column min-vh-100 justify-content-center`;
-
-  const socialData = {
-    githubUrl: githubUrl,
-    link: link,
-    twitter: twitter,
-  };
 
   return (
     <header id="about" className={newTheme}>
@@ -31,7 +25,7 @@ const About = ({ theme, setTheme, githubUrl, name, link, bio, twitter }) => {
         <h1>{name}</h1>
         <hr />
         <p>{bio}</p>
-        <SocialLinks {...socialData} />
+        <SocialLinks github={githubUrl} linkedin={linkedinUrl} />
         <Link className="scroll" to="skills" smooth={true} duration={750}>
           <FaChevronCircleDown id="scroll-down" />
         </Link>

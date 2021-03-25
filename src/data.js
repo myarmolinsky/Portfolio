@@ -9,10 +9,16 @@ import {
   FaNodeJs,
   FaJava,
 } from "react-icons/fa";
-import { SiHeroku, SiJavascript, SiJest, SiMongodb } from "react-icons/si";
+import {
+  SiHeroku,
+  SiJavascript,
+  SiJest,
+  SiMongodb,
+  SiRedux,
+} from "react-icons/si";
 
 // Projects Images (add your images to the /assets/images directory and import below)
-import reactLogo from "./assets/images/logo.svg";
+import reactLogo from "./assets/images/reactLogo.png";
 import ponkemo from "./assets/images/ponkemo.png";
 
 export const name = "Matthew Yarmolinsky";
@@ -74,6 +80,10 @@ export const skillData = [
     icon: <SiJest className="display-4" />,
     name: "Jest.js",
   },
+  {
+    icon: <SiRedux className="display-4" />,
+    name: "Redux",
+  },
 ];
 
 /* Projects
@@ -106,6 +116,7 @@ export const projects = [
       <FaSass className="display-4" />,
       <SiMongodb className="display-4" />,
       <SiHeroku className="display-4" />,
+      <SiRedux className="display-4" />,
     ],
   },
   {
@@ -133,6 +144,12 @@ export const experiences = [
     ],
     position: "Full Stack Software Engineer",
     timeline: "Aug 2020 - Present",
+  },
+  {
+    name: "Brooklyn College",
+    tech: [<FaJava className="display-4" />],
+    position: "Java Teaching Assistant",
+    timeline: "Feb 2020 - Present",
   },
   {
     name: "Nova XR Media",

@@ -40,11 +40,6 @@ hr {
 #error {
   color: $reactBlue;
 }
-.pfp {
-  height: 30%;
-  width: 30%;
-  margin-top: 8%;
-}
 .footer {
   display: flex;
   flex-direction: column;
@@ -98,6 +93,13 @@ hr {
     #scroll-down {
       margin-top: 5rem;
     }
+  }
+  img {
+    margin-top: 1rem;
+    border: 0.2rem solid $reactBlue;
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
   }
 }
 

@@ -2,10 +2,8 @@ import { email, name } from "../data";
 import pfp from "../assets/images/pfp.jpg";
 
 const Contact = () => {
-  const newTheme = `d-flex flex-column justify-content-center`;
-
   return (
-    <section id="contact" className={newTheme}>
+    <section id="contact" className="d-flex flex-column justify-content-center">
       <div className="container text-center">
         <h2>Contact</h2>
         <hr />

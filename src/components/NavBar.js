@@ -11,8 +11,8 @@ const NavBar = () => {
           <Link
             className="text-white"
             to="about"
-            smooth={true}
-            spy={true}
+            smooth
+            spy
             activeClass="active"
           >
             About
@@ -22,8 +22,8 @@ const NavBar = () => {
           <Link
             className="text-white"
             to="skills"
-            smooth={true}
-            spy={true}
+            smooth
+            spy
             activeClass="active"
           >
             Skills
@@ -33,8 +33,8 @@ const NavBar = () => {
           <Link
             className="text-white"
             to="experience"
-            smooth={true}
-            spy={true}
+            smooth
+            spy
             activeClass="active"
           >
             Experience
@@ -44,8 +44,8 @@ const NavBar = () => {
           <Link
             className="text-white"
             to="projects"
-            smooth={true}
-            spy={true}
+            smooth
+            spy
             activeClass="active"
           >
             Projects
@@ -55,8 +55,8 @@ const NavBar = () => {
           <Link
             className="text-white"
             to="contact"
-            smooth={true}
-            spy={true}
+            smooth
+            spy
             activeClass="active"
           >
             Contact
